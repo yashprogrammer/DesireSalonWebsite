@@ -9,7 +9,7 @@
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.ico" type="" />
     <!-- Stylesheets-->
     <link
       rel="stylesheet"
@@ -33,6 +33,15 @@
       html.ie-10 .ie-panel,
       html.lt-ie-10 .ie-panel {
         display: block;
+      }
+      .dark-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+        z-index: 1; /* Ensure the overlay is on top of the image */
       }
     </style>
   </head>
@@ -138,17 +147,17 @@
                       <li class="rd-nav-item active">
                         <a class="rd-nav-link" href="index.html">Home</a>
                       </li>
-                      <li class="rd-nav-item">
+                      <!-- <li class="rd-nav-item">
                         <a class="rd-nav-link" href="about-us.html">About</a>
-                      </li>
+                      </li> -->
                       <!-- <li class="rd-nav-item">
                         <a class="rd-nav-link" href="typography.html"
                           >Typography</a
                         >
                       </li> -->
-                      <li class="rd-nav-item">
+                      <!-- <li class="rd-nav-item">
                         <a class="rd-nav-link" href="contacts.html">Contacts</a>
-                      </li>
+                      </li> -->
                     </ul>
                   </div>
                 </div>
@@ -169,8 +178,9 @@
           <div class="swiper-slide slide-bg-1">
             <div
               class="slide-bg swiper-white-filter"
-              style="background-image: url('images/slide-1-1920x720.png')"
+              style="background-image: url('images/salonImages/BG.png')"
             ></div>
+            <div class="dark-overlay"></div>
             <div class="swiper-slide-caption section-md">
               <div class="container">
                 <div class="row">
@@ -209,8 +219,9 @@
           <div class="swiper-slide slide-bg-2">
             <div
               class="slide-bg swiper-white-filter"
-              style="background-image: url('images/slide-2-1920x720.png')"
+              style="background-image: url('images/salonImages/BG2.png')"
             ></div>
+
             <div class="swiper-slide-caption section-md">
               <div class="container">
                 <div class="row">
@@ -232,46 +243,6 @@
                       women, eyebrow and eyelash care, the services of make-up
                       artists and stylists. Entrust your beauty to professionals
                       who really care about your style and look!
-                    </p>
-                    <a
-                      class="button button-primary"
-                      href="#"
-                      data-caption-animate="fadeInUp"
-                      data-caption-delay="450"
-                      >Read more</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide slide-bg-3">
-            <div
-              class="slide-bg swiper-white-filter"
-              style="background-image: url('images/slide-3-1920x720.png')"
-            ></div>
-            <div class="swiper-slide-caption section-md">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-10 col-lg-8 col-xl-7">
-                    <h1
-                      class="heading-decorate"
-                      data-caption-animate="fadeInUp"
-                      data-caption-delay="100"
-                    >
-                      Professional Beauty <br /><span class="divider"></span
-                      >Care for Everyone
-                    </h1>
-                    <p
-                      class="lead"
-                      data-caption-animate="fadeInUp"
-                      data-caption-delay="250"
-                    >
-                      Our beauty salon treatments will help you relax after a
-                      long and stressful day. At Glory, you can pamper yourself
-                      and enjoy the benefits of professional and affordable
-                      beauty care. Enjoy your life with our high-quality beauty
-                      services.
                     </p>
                     <a
                       class="button button-primary"
@@ -770,8 +741,8 @@
         <div class="container">
           <p class="rights">
             <span>&copy;&nbsp;</span><span class="copyright-year"></span>. All
-            Rights Reserved. Design by
-            <a href="https://www.templatemonster.com">TemplateMonster</a>
+            Rights Reserved. Design With &#x2665 By
+            <a href="">Yash Patil </a>
           </p>
         </div>
       </section>
